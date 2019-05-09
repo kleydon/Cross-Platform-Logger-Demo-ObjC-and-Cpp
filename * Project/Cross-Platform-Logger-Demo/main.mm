@@ -24,12 +24,12 @@ int main(int argc, const char * argv[]) {
         
         NSLog(@"Cross-platform logger demo");
         
-        iLog("Example of an informational log line, indicating file and current function.");
-        iLog("Uses fmtlib.net library for flexible formatting.\n");
+        iLog("\n");
+        iLog("Example of an informational log line,");
+        iLog("indicating file and current function.\n");
+        iLog("For flexible formatting, uses fmt.\n");
         
-        eLog("Example of an error log line. Set up to be picked up by Crashlytics.");
-
-        
+        eLog("Example error log line. Routable to Crashlytics.\n");
     }
     return 0;
 }
