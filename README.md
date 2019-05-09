@@ -4,7 +4,7 @@ Cross-platform logger for OSX, iOS, Android and C++, integrates with Crashlytics
 
 ## Usage:
 
-Include the header "Logger.hpp" in the files you want to log from. The header can only be included from C++ or Objective-C*++* files (for OSX/iOS, don't include from AppDelegate.m).  
+Include the header "Logger.hpp" in the files you want to log from. The header can only be included from C++ or Objective-C**++** files (for OSX/iOS, don't include from AppDelegate.m).  
 
 For iOS, set the pre-processor value: `#define QX_IOS`
 For Android, set the pre-processor value: `#define QX_ANDROID`
