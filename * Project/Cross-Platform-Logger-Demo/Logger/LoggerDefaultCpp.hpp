@@ -31,4 +31,4 @@
 
 
 
-#endif  //__LOGGER_DEFAULT_CPP_HPP__
+#endif //__LOGGER_DEFAULT_CPP_HPP__
